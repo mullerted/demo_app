@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @miropost.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @miropost.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_miropost_path(@miropost) %> |
+<%= link_to 'Back', miroposts_path %>
